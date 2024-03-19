@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Up</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="assets/Fluffing.mp3" type="audio/mpeg">
+    </audio>
+      
+    <div class="container">
+    <img src="assets/title.png" id="logo">
+    <button id="playButton" onclick="audio.play();">Play</button>
+    </div>
+    <form id="playerForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="nickname">Nickname:</label>
+        <input type="text" id="nickname" required><br>
+        <button type="button" id="startGameButton" onclick="audio.play();">Start Game</button>
+    </form>
+
+<div id="instructions">
+    <h2>Instructions</h2>
+    <button id="continueButton" onclick="audio.play();">Continue</button>
+</div>
+
+    <script src="index.js"> 
+    </script>
+</body>
+</html>
