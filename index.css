@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(assets/homebg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    }
+
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+#logo {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+#playButton {
+    padding: 10px 20px;
+    font-style: oblique;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: forestgreen;
+    border: 0cap;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#playerForm {
+    display: none;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+#playerForm input {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#startGameButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: forestgreen;
+    border: 0cap;
+}
+
+#instructions {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+}
+        
+#continueButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: forestgreen;
+    border: 0cap;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 50px;
+    }
+
+    #logo {
+        width: 250px;
+    }
+
+    #playButton {
+        padding: 8px 16px;
+        font-size: 16px;
+        bottom: -10px;
+    }
+}
