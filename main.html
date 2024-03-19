@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <audio id="clickSound">
+        <source src="assets/click.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h1>Memory Match Up Game</h1>
+    <div class="top-bar">
+        <div class="stats">
+            <div>Moves: <span id="moves" class="stats-item"> 0 </span></div>
+            <div>Time: 00: <span id="time" class="stats-item">00</span></div>
+        </div>
+    </div>
+    <div class="game-container" id="gameContainer"></div>
+    <div class="popup-overlay" id="popupOverlay"></div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
